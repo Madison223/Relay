@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #5FACD3, #97DDE9);
+    min-height: 100px;
+}
+
+.footer-note {
+    align-self: center;
+    padding-top: 12px;
+    margin: 0;
+    color: #111636;
+}

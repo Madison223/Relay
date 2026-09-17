@@ -1,0 +1,63 @@
+.login-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 360px;
+  padding: 20px;
+  margin: 50px auto;
+  gap: 18px;
+  border-radius: 25px;
+  background-color: rgba(82, 127, 178, 0.829);
+}
+
+.box > p,
+.box > h1 {
+  color: white;
+}
+
+.box > input {
+  width: 100%;
+  padding: 12px 45px 12px 16px;
+  box-sizing: border-box;
+  margin: 0;
+  border: #b8b8b8 1.5px solid;
+  border-radius: 6px;
+  background: #fff;
+  outline: none;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn, .google {
+  width: 80%;
+  min-height: 60px;
+  font-size: 24px;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.445);
+  color: #ffc349;
+  cursor: pointer;
+}
+
+.btn:hover, .google:hover {
+    opacity: 0.8;
+}
+
+.google {
+    min-height: 40px;
+    font-size: 16px;
+}

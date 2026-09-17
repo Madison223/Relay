@@ -1,0 +1,30 @@
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.leave-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 31px;
+    height: 31px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFC349;
+    padding: 0;
+    
+}
+
+.leave-chat img {
+    display: block;
+}
+
+
+.leave-chat:hover {
+    opacity: 50%;
+}

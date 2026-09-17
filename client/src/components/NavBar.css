@@ -1,0 +1,28 @@
+.nav-bar {
+    background-image: linear-gradient(to bottom, #525EA7, #5FACD3);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 35px;
+
+}
+
+.nav-bar > a {
+    border: none;
+    min-width: 50px;
+    padding: 12px 14px;
+    background: #FFC349;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111636;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.233);
+}
+
+.nav-bar > a:hover {
+    opacity: 80%;
+}

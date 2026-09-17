@@ -1,0 +1,19 @@
+.user-card {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.avatar {
+    width: 52px;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: 400;
+    color: #97DDE9;
+}
