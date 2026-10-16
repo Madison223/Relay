@@ -1,7 +1,7 @@
 import MessageBubble from "./MessageBubble";
 import "./MessageList.css";
 
-function MessageList() {
+function MessageList({messages}) {
     return (
         <div className="message-list">
             <MessageBubble 
@@ -73,6 +73,15 @@ function MessageList() {
     time="10:38 AM"
     isMine={false}
 />
+
+
+{messages.map((msg, index) => {
+    return <MessageBubble 
+        key={index}
+        message={msg.message}
+        isMine={msg.isMine}
+    />
+})}
             
         </div>
     );
